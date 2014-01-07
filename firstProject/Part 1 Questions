@@ -1,0 +1,39 @@
+Do you know?
+1. The bug will always move to a new spot even if its path is blocked by an object like a rock. The bug will move diagonally and avoid the rock.
+
+2.The bug moves forward the way it is facing, so if it is facing north it will move until the end of the grid and then turn to the right.
+
+3.The bug will continue to rotate at 45 degree increments if it can not move.
+
+4.It leaves a flower on the previous spot on which it just came from.
+
+5.When the bug is at the edge of the grid the bug will rotate until it finds an open space to move to and continue from there repeating the process infinitley.
+
+6.The bug will rotate 45 degrees and move diagonally to avoid the rock and will continue on that same angled path.
+
+7.Flowers do not move in the grid world.
+
+8.The flower's color will slowly fade as the bug moves away from that particuar flower.
+
+9.The rock does not have any behaviors, it acts like a wall. The onlt thing that changes is the color.
+
+10.No, there can only be one actor on one spot in the grid. If the bug moves to a space with a flower, the flower will be erased.
+
+
+Exercises:
+
+1. 0 -- North
+  45 -- North-East
+  90 -- East
+  135 -- South-East
+  180 -- South
+  225 -- South-West
+  270 -- West
+  315 -- North-West
+  360 -- North
+  
+2.You can move the bug any direction within the boundaries of the grid world. If you try to move the bug outside of the boundaries of the world you will get and error.
+
+3.I used the "set color" method.
+
+4.The bug disappeared and got destroyed by the rock.
