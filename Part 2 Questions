@@ -1,0 +1,13 @@
+1. The role of the sideLength is to determine how long the bug should move until it equals the length of the side.
+
+2. The role of steps is to make sure the bug does not exceed the Length of the side so when steps is equal to sideLength, the bug stops running or tunrs.
+
+3. Because the turn method only turns in 45 degree increments, and so when steps is equal to sideLength the bug will turn twice to make a 90 degree rotation.
+
+4.The boxbug method extends to the bug method which can call on move to actually move the bug.
+
+5. Yes because it the size of the square is initialized in the constructor for the certain bug, when it runs, it will always be the same sideLengths.
+
+6. The path of boxbug can change either if it hits the end of a wall(edge of the gridworld) or runs into a rock. These are stationary objects which will cause the bug to alter its path.
+
+7. The value of steps will be zero when the bug rotates 90 degrees to make a turn because steps is reset so it can move until it matches sidelength.
