@@ -28,5 +28,32 @@ Set 5:
 
 3. It is created as a class so it can be accessed by multiple other classes instead of being copied over for each one.
 
+4. You can place multiple bugs into the world however they can not be placed on top of eachother, an actor can not remove its self from the grid twice because it is only one actor. It can create its self and remove itsself multiple times.
+
+5. You can call the turn method twice to make it move 90 degrees.
+
+Set 6:
+
+1. if (gr == null) return false
+
+2. return (neighbor == null) || (neighbor instanceOf rock)
+
+3. 
+
 4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
 
