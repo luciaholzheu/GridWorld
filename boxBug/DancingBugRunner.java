@@ -20,7 +20,7 @@ public class DancingBugRunner
         for (int i=0; i<array.length; i++) {
             array[i] = r.nextInt(5);
         }
-        DancingBug bob = new DancingBug(3);
+        DancingBug bob = new DancingBug(array);
         //world.add(new Location(7, 8), alice);
         world.add(new Location(5, 5), bob);
         world.show();
