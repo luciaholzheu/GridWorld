@@ -57,3 +57,22 @@ Set 6:
 11. It would turn 4 times to be 180 degrees.
 
 
+Jumping bug code:
+
+1.
+a. Checks two spots away to see if it is a flower or a rock. If it is a rock it will turn 45 degrees to the right. If it is a flower the bug will continue to jump onto the flower.
+b.It will check two spots ahead of itself and then turn 45 degrees.
+c.It will check to see if it is a the edge of the grid and then turn 45 degrees.
+d.It would do the same thing as if a rock was in the way.
+e.The bug will check to see if the second space is clear and then jump over the bug infront of it and if it isnt, it will turn 45 degrees.
+f.None that we know of now.
+
+2.
+a.It would extend to bug.
+b.All of the other bug runners that we made are similar to jumper.
+c.Yes there should be a constructor that will only initiailize the color of the bug and the other physical characteristics.
+d. the dropFlower method and the other act methods because the jumper is not a regular bug.
+e. Jump, canMove2.
+f. Our plan is to place other actors and objects in the world to see how it reacts to them to see if it breaks our rules.
+
+
