@@ -1,9 +1,59 @@
-1.
+Set 3:
 
-2.
+1. Loaction locl1 = locl.getAdjacentLocation(whatever place is needed)
 
-3.
+2. False
+
+3. (3,5)
+
+4. Dir has a value of 135
+
+5. It is base off of the direction you choose, North and south change the second variable for the vertical shift and east and west change the horizontal variable which is the first one. It gets the original spot and gets the direction of the second spot to determine it.
+
+Set 4:
+
+1. You can obtain the count of objects in the world by using the getOccupiedLocations to check each of the grid loactions that are occupied by an object. To find the unoccupied locations use the getEmpytyAdjacentLocations to find each of the spots on the grid that are unoccupied.
+
+2. Use the get(Location loc) method to see if the spot is occupied.
+
+3. You have to call upon the super to access the methods located in other files
+
+4. In this case it is easier to use ArrayList because is much simpler to add and subtract objects to the list because Arrays you would have to change multiple parts to make it work.
+
+Set 5:
+
+1. Setting the color, location, and behaviors.
+
+2. The color is blue and faces north.
+
+3. It is created as a class so it can be accessed by multiple other classes instead of being copied over for each one.
+
+4. You can place multiple bugs into the world however they can not be placed on top of eachother, an actor can not remove its self from the grid twice because it is only one actor. It can create its self and remove itsself multiple times.
+
+5. You can call the turn method twice to make it move 90 degrees.
+
+Set 6:
+
+1. if (gr == null) return false
+
+2. return (neighbor == null) || (neighbor instanceOf rock)
+
+3. 
 
 4.
 
 5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+
