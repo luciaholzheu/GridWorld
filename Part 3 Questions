@@ -38,22 +38,22 @@ Set 6:
 
 2. return (neighbor == null) || (neighbor instanceOf rock)
 
-3. 
+3. isValid and the get beecause the they both ensure that the area of the world is valid before it moves.
 
-4.
+4. getAdjacentLocation because it gets the location in which the bug is looking.
 
-5.
+5. The methods from canMove are getLocation, getGrid, and getDirection.
 
-6.
+6. It rotates 45 degrees to the right and then moves.
 
-7.
+7. Loc is needed because it simplifies the method without having to call multiple getLocations.
 
-8.
+8. So you can distinguish which bug dropped which color of flower
 
-9.
+9. No it would not leave a flower if the method removeSelfFromGrid was called, there would be nothing
 
-10.
+10. flower.putSelfToGrid takes the flower method and adds a flower.
 
-11.
+11. It would turn 4 times to be 180 degrees.
 
 
