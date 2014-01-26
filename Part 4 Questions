@@ -1,3 +1,22 @@
+Set 7:
+
 1. The methods that are implemented in Critter are act, getActors, processActors, getMoveLocations, selectMoveLocations, make move.
 
-2. 
+2. The five basic actions to all critters are getActors, processActors, getMoveLocations, selectMoveLocations and makeMove
+
+3. Yes because the sub classes will have different variations to what actors are defined as, so they would respond with flower, bug, critter etc.
+
+4. It could change to that actors color, remove the actor or move it out of the way.
+
+5. getMoveLocations, makeMove, and selectMoveLocation. The critter would first check to see the surrounding open adjacent positions and then select where to move and then actually move, its a 3 step process for it to move around.
+
+6. There is no critter consturctor because critter extends to actor and actor has the constructor already in it so you do not have to write a constructor for it.
+
+Set 8:
+
+1. The chameleon critter overrides processActors and makeMove which are both in act, therefore changing the way the chameleon acts.
+
+2.
+
+
+
