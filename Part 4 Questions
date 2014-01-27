@@ -16,7 +16,28 @@ Set 8:
 
 1. The chameleon critter overrides processActors and makeMove which are both in act, therefore changing the way the chameleon acts.
 
-2.
+2. It calls super.makeMove to call all uses of makeMove to the current critter so they can be processed and used to face the chamelon a certain direction.
 
+3. You could take its old location or previous location and make it create a new flower when it move to the next space.
 
+4. The chameleon does not need to figure out which actor is which, it just selects a random one and moves towards it and changes color.
 
+5. Actor
+
+6. The critter can call getGrid and access the grid for its use.
+
+Set 9: 
+
+1. The bug does not need to process the actors when it can just use getActors to see where they are and then what to do.
+
+2. The crab critter will eat anything to its direct front-left, front and front-right. It will not eat rocks or another critter.
+
+3. It is used to bring in an array of directions that the critter can then use to make a move or eat another something.
+
+4. 4,3  4,4  4,5
+
+5. Crab critters can only move left and right unless there is something it can eat directly in front of it and critters do not turn when they cant move.
+
+6.If the crab can only move to the spot it currently is (being blocked by other objects) it will turn.
+
+7. Crabs will not eat any other type of critter declared in its processActors.
