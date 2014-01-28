@@ -1,0 +1,43 @@
+Set 7:
+
+1. The methods that are implemented in Critter are act, getActors, processActors, getMoveLocations, selectMoveLocations, make move.
+
+2. The five basic actions to all critters are getActors, processActors, getMoveLocations, selectMoveLocations and makeMove
+
+3. Yes because the sub classes will have different variations to what actors are defined as, so they would respond with flower, bug, critter etc.
+
+4. It could change to that actors color, remove the actor or move it out of the way.
+
+5. getMoveLocations, makeMove, and selectMoveLocation. The critter would first check to see the surrounding open adjacent positions and then select where to move and then actually move, its a 3 step process for it to move around.
+
+6. There is no critter consturctor because critter extends to actor and actor has the constructor already in it so you do not have to write a constructor for it.
+
+Set 8:
+
+1. The chameleon critter overrides processActors and makeMove which are both in act, therefore changing the way the chameleon acts.
+
+2. It calls super.makeMove to call all uses of makeMove to the current critter so they can be processed and used to face the chamelon a certain direction.
+
+3. You could take its old location or previous location and make it create a new flower when it move to the next space.
+
+4. The chameleon does not need to figure out which actor is which, it just selects a random one and moves towards it and changes color.
+
+5. Actor
+
+6. The critter can call getGrid and access the grid for its use.
+
+Set 9: 
+
+1. The bug does not need to process the actors when it can just use getActors to see where they are and then what to do.
+
+2. The crab critter will eat anything to its direct front-left, front and front-right. It will not eat rocks or another critter.
+
+3. It is used to bring in an array of directions that the critter can then use to make a move or eat another something.
+
+4. 4,3  4,4  4,5
+
+5. Crab critters can only move left and right unless there is something it can eat directly in front of it and critters do not turn when they cant move.
+
+6.If the crab can only move to the spot it currently is (being blocked by other objects) it will turn.
+
+7. Crabs will not eat any other type of critter declared in its processActors.
