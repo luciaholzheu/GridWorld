@@ -10,38 +10,38 @@ public class BlusterCritter extends Critter {
 	private double DARKENING_FACTOR;
 	private int c;
 	private int courage;
-	public void BlusterCritter(int c) {
+	public BlusterCritter(int c) {
+		super();
 		courage = 3;
-		if (c <= courage) {
-			lighten();
-		}else if (c > courage) {
-			darken();
-		}
+		this.c = c;
 	}
 
 	public ArrayList<Actor> getActors() {
 		ArrayList<Actor> actors = new ArrayList<Actor>();
 
 		Location loc = getLocation();
-		for (int column = loc.getCol() - 2; column<= (loc.getColumn() + 2); column++) {
+		for (int column = loc.getCol() - 2; column<= (loc.getCol() + 2); column++) {
 			for (int row = loc.getRow() - 2; row <= (loc.getRow() + 2); row++) {
 				Location test = new Location(row, column);
-				if (test ) {
-					
-				}
-					
-				
-				Actor a = getGrid().get(test);
-				
+				if (getGrid().isValid(test)) {
+					if (getGrid().get(test) instanceof Critter) {
+						c++;
+					}
+				}				
 			}
 		}
-
-
-
-
+		return getGrid().getNeighbors(getLocation());
 	}
 
-	
+	public void processActors() {
+		
+			if (c <= courage) {
+				lighten();
+			}else if (c > courage) {
+				darken();
+			}
+		
+	}
 
 
 	public void darken(){
