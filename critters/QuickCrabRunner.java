@@ -1,7 +1,7 @@
 import info.gridworld.actor.ActorWorld;
 import info.gridworld.actor.Rock;
 import info.gridworld.grid.Location;
-
+import info.gridworld.actor.Critter;
 import java.awt.Color;
 
 
@@ -17,7 +17,7 @@ public class QuickCrabRunner{
         // world.add(new Location(1, 5), new Rock(Color.RED));
         // world.add(new Location(7, 2), new Rock(Color.YELLOW));
         
-        world.add(new Location(4, 4), new QuickCrab(3));
+        world.add(new Location(4, 4), new QuickCrab());
         world.show();
     }
 }
